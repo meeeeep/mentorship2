@@ -1,0 +1,46 @@
+<ActionBar title="My Apple" class="action-bar"></ActionBar>
+
+
+<GridLayout columns="*, *, *, *" rows="*,*, *, *, *, *, *, *, *">
+
+        <StackLayout colSpan="5" row="0" id="menu">
+            <Label text="&#xf0c9;" class="font-awesome" </Label>
+            <Label text="Menship" horizontalAlignment="center" verticalAlignment="center"></Label>
+        </StackLayout>
+        <GridLayout class="header-container" colSpan="5" row="1" >
+            <Label text="Sign up to become a" id="title1" colSpan="5" horizontalAlignment="center" verticalAlignment="center" class="large-text"></Label>
+        </GridLayout>
+
+        <StackLayout colSpan="2" row="2" id="box1">
+            <Label row="3" horizontalAlignment="center" colSpan="2" text="&#xf2bd;" class="font-awesome"></Label>
+            <Label row="4"  colSpan="2" horizontalAlignment="center" verticalAlignment="center" text="Mentor"></Label>
+        </StackLayout>
+
+        <StackLayout colSpan="2" row="2" col="2" id="box2">
+            <Label row="3" </Label>
+            <Label row="4" horizontalAlignment="center" colSpan="2" text="&#xf2be;" class="font-awesome"></Label>
+            <Label row="5"  colSpan="2" horizontalAlignment="center" verticalAlignment="center" text="Mentee"></Label>
+        </StackLayout>
+
+        <StackLayout row="3" orientation="vertical" verticalAlignment="center" colSpan="5">
+            <TextField hint="First & Last Name" secure="true" text="{{password}}"></TextField>
+        </StackLayout>
+
+        <StackLayout row="4" orientation="vertical" verticalAlignment="center" colSpan="5">
+            <TextField id="email" text="{{email}}" hint="Email Address" keyboardType="email" autocorrect="false" autocapitalizationType="none"></TextField>
+        </StackLayout>
+
+        <StackLayout row="5" orientation="vertical" verticalAlignment="center" colSpan="5">
+            <TextField hint="Password" secure="true" text="{{password}}"></TextField>
+        </StackLayout>
+
+        <StackLayout row="6" orientation="vertical" verticalAlignment="center" colSpan="5">
+            <TextField hint="Verify Password" secure="true" text="{{password}}"></TextField>
+        </StackLayout>
+
+        <StackLayout row="7" orientation="vertical" verticalAlignment="center" colSpan="5">
+            <Button text="Sign Up!" tap="signIn"</Button>
+            <Button text="Already have an account" tap="register"></Button>
+        </StackLayout>
+
+    </GridLayout>

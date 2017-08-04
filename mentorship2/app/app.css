@@ -10,3 +10,93 @@ of writing your own CSS rules. For a full list of class names in the theme
 refer to http://docs.nativescript.org/ui/theme.
 */
 @import 'nativescript-theme-core/css/core.light.css';
+
+Page {
+    background-color: #F111D8;
+}
+
+TextField {
+    margin: 10;
+    padding: 10;
+    background-color: #F1E5FF;
+}
+/*#F1E5FF*/
+Button {
+    margin: 10;
+    padding: 10;
+    background-color: #49E1E5;
+
+    /*#7883E5;*/
+}
+
+.font-awesome {
+    font-family: "FontAwesome";
+    font-size: 30%;
+}
+
+#box1{
+    background-color: white;
+    border-style: solid;
+    border-color: #F111D8;
+    border-width: 4em;
+    padding-top: 30px;
+    margin-left: 5;
+}
+
+#box2{
+    background-color: white;
+    border-style: solid;
+    border-color: #F111D8;
+    border-width: 4em;
+    padding-top: 30px;
+    margin-right: 5;
+}
+
+#image1{
+    border-color: black;
+    border-width: 4em;
+    border-style: solid;
+    border-radius: 70%;
+    width:200px;
+    height: 400px;
+}
+
+.link{
+    background-color: #F111D8;
+
+}
+
+.textView1 {
+    margin: 10;
+    padding: 10;
+    height: 75;
+    background-color: #F1E5FF;
+}
+
+.textView2{
+    margin: 10;
+    padding: 10;
+    background-color: #F1E5FF;
+}
+
+.textView3{
+    margin: 10;
+    padding: 10;
+    height:150;
+    background-color: #F1E5FF;
+}
+
+.textView4{
+    margin: 10;
+    padding: 10;
+    padding-bottom:50;
+    background-color: #F1E5FF;
+}
+
+.textView5 {
+    margin: 10;
+    padding: 10;
+    /*padding-bottom:70;*/
+    height: 100;
+    background-color: #F1E5FF;
+}

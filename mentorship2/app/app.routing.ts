@@ -2,13 +2,20 @@ import { NgModule } from "@angular/core";
 import { NativeScriptRouterModule } from "nativescript-angular/router";
 import { Routes } from "@angular/router";
 
-import { ItemsComponent } from "./item/items.component";
-import { ItemDetailComponent } from "./item/item-detail.component";
+import { SignupComponent } from "./signup/signup.component";
+import { LandingsComponent } from "./landing/landing4Mentee/landing.component";
+import { Landing4MentorComponent } from "./landing/landing4Mentor/landing4Mentor.component";
+import { LoginComponent } from "./login/login.component";
+
+// import { ItemDetailComponent } from "./item/item-detail.component";
 
 const routes: Routes = [
-    { path: "", redirectTo: "/items", pathMatch: "full" },
-    { path: "items", component: ItemsComponent },
-    { path: "item/:id", component: ItemDetailComponent },
+    { path: "", component: SignupComponent },
+    { path: "landing", component: LandingsComponent},
+    { path: "landing4Mentor", component: Landing4MentorComponent},
+    { path: "login", component: LoginComponent}
+
+    // { path: "item/:id", component: ItemDetailComponent },
 ];
 
 @NgModule({

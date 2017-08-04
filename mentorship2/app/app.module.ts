@@ -3,9 +3,14 @@ import { NativeScriptModule } from "nativescript-angular/nativescript.module";
 import { AppRoutingModule } from "./app.routing";
 import { AppComponent } from "./app.component";
 
-import { ItemService } from "./item/item.service";
-import { ItemsComponent } from "./item/items.component";
-import { ItemDetailComponent } from "./item/item-detail.component";
+import { SignupComponent } from "./signup/signup.component";
+import { LandingsComponent } from "./landing/landing4Mentee/landing.component";
+import { Landing4MentorComponent } from "./landing/landing4Mentor/landing4Mentor.component";
+import { LoginComponent } from "./login/login.component";
+
+// import { ItemService } from "./item/item.service";
+// import { LandingsComponent } from "./landing/landing4Mentee/landing.component";
+// import { ItemDetailComponent } from "./item/item-detail.component";
 
 // Uncomment and add to NgModule imports if you need to use two-way binding
 // import { NativeScriptFormsModule } from "nativescript-angular/forms";
@@ -23,11 +28,14 @@ import { ItemDetailComponent } from "./item/item-detail.component";
     ],
     declarations: [
         AppComponent,
-        ItemsComponent,
-        ItemDetailComponent
+        LandingsComponent,
+        SignupComponent,
+        Landing4MentorComponent,
+        LoginComponent
+
     ],
     providers: [
-        ItemService
+
     ],
     schemas: [
         NO_ERRORS_SCHEMA
